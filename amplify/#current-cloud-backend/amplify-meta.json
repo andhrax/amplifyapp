@@ -22,7 +22,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-183452-deployment/amplify-cfn-templates/auth/amplifyappc5c89be5-cloudformation-template.yml",
         "logicalId": "authamplifyappc5c89be5"
       },
-      "lastPushTimeStamp": "2020-09-28T16:40:19.804Z",
+      "lastPushTimeStamp": "2020-09-28T17:19:09.047Z",
       "output": {
         "AppClientSecret": "1ovvn9jujafqmp5m5o37tsopd0iatn2edrvudighuahitekl9ag5",
         "UserPoolId": "eu-west-1_bcBIvt8Cm",
@@ -33,6 +33,49 @@
         "UserPoolName": "amplifyappc5c89be5_userpool_c5c89be5"
       },
       "lastPushDirHash": "8AAhNr53mWokArKYOcXpI6qKDz8="
+    }
+  },
+  "api": {
+    "notesapp": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7,
+              "description": "demo"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        },
+        "GraphQLAPIIdOutput": "gemekj55jvbczpqr752z6q7ynq",
+        "GraphQLAPIEndpointOutput": "https://6nqifvpxzjayzb5pyzhgasr2kq.appsync-api.eu-west-1.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-peyrn5wowfdevigrczzegfjqmi"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-183452-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apinotesapp"
+      },
+      "lastPushTimeStamp": "2020-09-28T17:19:10.017Z",
+      "lastPushDirHash": "FGRu9sGHlQcqNwPboicuypn2ORM="
+    }
+  },
+  "storage": {
+    "storageandy": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-dev-183452-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+        "logicalId": "storagestorageandy"
+      },
+      "lastPushTimeStamp": "2020-09-28T17:19:10.017Z",
+      "output": {
+        "BucketName": "bucketandy183452-dev",
+        "Region": "eu-west-1"
+      },
+      "lastPushDirHash": "eaJipqb4aLYu65eNAEt25MTXRUg="
     }
   }
 }
